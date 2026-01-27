@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -11,9 +11,27 @@
     <p id="spara" class="textmatter">Second paragraph</p>
     <p id="tpara" class="textmatter">third paragraph</p>
     <p id="fopara" class="textmatter">fourth paragraph</p>
-
     <h1 id="fheading" class="textmatter">First heading</h1>
 
+    <p id="123">
+         this para1 has <span>innerHTML</span>
+         The innerHTML property allows us to retrieve or replace the HTML content within an element. It represents the markup of the element's descendants, including text and child elements.
+    </p>
+
+    <div id="mydiv">
+        the <span> innerText property </span> retrieves or sets the text content of the specified element, excluding any HTML tags. It represents only the visible text within the element, without considering its child elements. 
+        <p style="display: none"> this has a property hidden </p>
+    </div>
+
+     <p id="456">
+         this para2 has <span>outerHTML</span>
+        The outerHTML property, on the other hand, represents the HTML content of the element itself along with its descendants. It includes the element's start tag, content, and end tag.
+    </p>
+
+     <p id="789">
+         this para3 has <span>textContent</span>
+         The textContent property retrieves or sets the text content of the specified element, but unlike innerText, it includes all text content, including child elements and their text.
+    </p>
 
 
 
