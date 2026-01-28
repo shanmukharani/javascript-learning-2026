@@ -55,9 +55,29 @@ fhead.textContent = "adding element";
 document.body.appendChild(fhead);
 
 let add1 = document.querySelector('p');
-add1.appendChild(fhead);
+add1.appendChild(fhead);  // adds at last 
 
+//using insertAdjacentElement() - we can add at the position we want 
 
+let adj1 = document.createElement('h4');
+adj1.textContent = "inserting element beforebegin";
+mydiv123.insertAdjacentElement('beforebegin', adj1);
 
+let adj2 = document.createElement('h4');
+adj2.textContent = "inserting element afterbegin";
+mydiv123.insertAdjacentElement('afterbegin', adj2);
+
+let adj3 = document.createElement('h4');
+adj3.textContent = "inserting element beforeend";
+mydiv123.insertAdjacentElement('beforeend', adj3);
+
+let adj4 = document.createElement('h4');
+adj4.textContent = "inserting element afterend";
+mydiv123.insertAdjacentElement('afterend', adj4);
+
+//removing 
+let parent = document.querySelector('#mydiv123');
+let child = document.querySelector('#para123');
+parent.removeChild(child);
 
 
