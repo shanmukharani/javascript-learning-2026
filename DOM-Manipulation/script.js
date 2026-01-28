@@ -53,7 +53,7 @@ fhead.textContent = "adding element";
 
 //adding element
 document.body.appendChild(fhead);
-
+// appendChild moves the element if it already exists in the DOM
 let add1 = document.querySelector('p');
 add1.appendChild(fhead);  // adds at last 
 
