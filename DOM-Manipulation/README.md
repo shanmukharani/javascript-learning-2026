@@ -15,4 +15,9 @@
 - Inserted elements at specific positions using `insertAdjacentElement()`
 - Removed child elements using `removeChild()`
 
-##
+## Day 3
+- practiced dom manipulation for styling css
+  - .style.
+  - .cssText
+  - .setAttribute()
+  - .classList()

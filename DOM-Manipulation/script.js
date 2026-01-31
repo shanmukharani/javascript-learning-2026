@@ -85,7 +85,7 @@ parent.removeChild(child);
 
 // dom manipulation styling css
 
-//using .style - doesnt overwrite styles
+//using .style. - doesnt overwrite styles
 let paraele1 = document.getElementById('secpara'); //get
 paraele1.style.backgroundColor = 'gray'; //set
 paraele1.style.color = 'white';
@@ -94,7 +94,7 @@ paraele1.style.fontSize = '30px';
 //using .cssText  - for get and set multiple css inline elements. It works only with inline styles. overwrites styles
 let divele1 = document.getElementById('sdiv');
 divele1.style.cssText; //get
-divele1.style.cssText = 'color: red; font-size: 20px; background-color: pink; padding: 0.5rem;'
+divele1.style.cssText = 'color: red; font-size: 20px; background-color: pink; padding: 0.5rem;' //set
 
 //using setAttribute() . it is used to add or change an HTML attribute on an element.
 
