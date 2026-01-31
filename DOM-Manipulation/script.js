@@ -85,7 +85,7 @@ parent.removeChild(child);
 
 // dom manipulation styling css
 
-//using .style. doesnt overwrite styles
+//using .style - doesnt overwrite styles
 let paraele1 = document.getElementById('secpara'); //get
 paraele1.style.backgroundColor = 'gray'; //set
 paraele1.style.color = 'white';

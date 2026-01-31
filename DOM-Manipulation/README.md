@@ -14,3 +14,5 @@
 - Learned how elements move when appended to a new parent
 - Inserted elements at specific positions using `insertAdjacentElement()`
 - Removed child elements using `removeChild()`
+
+##
