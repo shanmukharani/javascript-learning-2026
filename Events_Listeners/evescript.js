@@ -1,5 +1,5 @@
 function changeText(event) {
-    console.log(event);
+    console.log(event); //event object
     let fpara = document.getElementById('fpara');
     fpara.textContent = "hello world";
 }
