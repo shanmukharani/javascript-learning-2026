@@ -21,3 +21,15 @@
   - .cssText
   - .setAttribute()
   - .classList()
+
+## Day 4
+- practiced events and listeners
+  - adding a event listener
+  - removing a event listener
+  - event object
+
+## Day 5
+- practiced events and listeners
+  - preventing a default action
+  - alert message
+  - target
