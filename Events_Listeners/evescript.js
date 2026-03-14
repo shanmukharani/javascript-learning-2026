@@ -12,7 +12,7 @@ fpara.addEventListener('click',changeText); // on clicking "hello dhuniya!!!!" i
 //fpara.removeEventListener('click',changeText);
 
 
-//changing default action
+//changing default action. preventing a default action
 let atag = document.getElementById('fanchor');
 atag.addEventListener('click',function(event){
     event.preventDefault();
@@ -42,3 +42,4 @@ function alertmsg(event){
 //or we can just add it to the parent element
 let mydiv = document.getElementById('fdiv');
 mydiv.addEventListener('click',alertmsg)
+
